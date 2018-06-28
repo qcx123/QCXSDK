@@ -1,0 +1,6 @@
+framework module QcxSDK {
+  umbrella header "QcxSDK.h"
+
+  export *
+  module * { export * }
+}
