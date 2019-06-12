@@ -16,6 +16,12 @@
 		446D302F20E48F980012225E /* QcxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446D302E20E48F970012225E /* QcxSDK.framework */; };
 		446D303020E4B2FB0012225E /* QcxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446D302E20E48F970012225E /* QcxSDK.framework */; };
 		446D303120E4B2FB0012225E /* QcxSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 446D302E20E48F970012225E /* QcxSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		446D303520EB48180012225E /* MyContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D303420EB48180012225E /* MyContextView.m */; };
+		446D303720EB92620012225E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 446D303620EB92620012225E /* 1.png */; };
+		446D303A20EC6CA70012225E /* MyContextTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D303920EC6CA70012225E /* MyContextTestView.m */; };
+		446D303D20ECAF7F0012225E /* MyBezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D303C20ECAF7F0012225E /* MyBezierView.m */; };
+		446D303F20ECCDB40012225E /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 446D303E20ECCDB40012225E /* 2.mp4 */; };
+		44F7A1432272F9B6009A70F0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F7A1422272F9B6009A70F0 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +50,16 @@
 		446D300920E4858F0012225E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446D300A20E4858F0012225E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		446D302E20E48F970012225E /* QcxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QcxSDK.framework; sourceTree = "<group>"; };
+		446D303320EB48180012225E /* MyContextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyContextView.h; sourceTree = "<group>"; };
+		446D303420EB48180012225E /* MyContextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContextView.m; sourceTree = "<group>"; };
+		446D303620EB92620012225E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		446D303820EC6CA70012225E /* MyContextTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyContextTestView.h; sourceTree = "<group>"; };
+		446D303920EC6CA70012225E /* MyContextTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContextTestView.m; sourceTree = "<group>"; };
+		446D303B20ECAF7F0012225E /* MyBezierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBezierView.h; sourceTree = "<group>"; };
+		446D303C20ECAF7F0012225E /* MyBezierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBezierView.m; sourceTree = "<group>"; };
+		446D303E20ECCDB40012225E /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		44F7A1412272F9B6009A70F0 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		44F7A1422272F9B6009A70F0 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,16 @@
 				446D2FFC20E4858E0012225E /* AppDelegate.m */,
 				446D2FFE20E4858E0012225E /* ViewController.h */,
 				446D2FFF20E4858E0012225E /* ViewController.m */,
+				44F7A1412272F9B6009A70F0 /* TestViewController.h */,
+				44F7A1422272F9B6009A70F0 /* TestViewController.m */,
+				446D303320EB48180012225E /* MyContextView.h */,
+				446D303420EB48180012225E /* MyContextView.m */,
+				446D303820EC6CA70012225E /* MyContextTestView.h */,
+				446D303920EC6CA70012225E /* MyContextTestView.m */,
+				446D303B20ECAF7F0012225E /* MyBezierView.h */,
+				446D303C20ECAF7F0012225E /* MyBezierView.m */,
+				446D303E20ECCDB40012225E /* 2.mp4 */,
+				446D303620EB92620012225E /* 1.png */,
 				446D302E20E48F970012225E /* QcxSDK.framework */,
 				446D300120E4858E0012225E /* Main.storyboard */,
 				446D300420E4858F0012225E /* Assets.xcassets */,
@@ -151,8 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				446D300820E4858F0012225E /* LaunchScreen.storyboard in Resources */,
+				446D303F20ECCDB40012225E /* 2.mp4 in Resources */,
 				446D300520E4858F0012225E /* Assets.xcassets in Resources */,
 				446D300320E4858E0012225E /* Main.storyboard in Resources */,
+				446D303720EB92620012225E /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,9 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446D303520EB48180012225E /* MyContextView.m in Sources */,
 				446D300020E4858E0012225E /* ViewController.m in Sources */,
+				44F7A1432272F9B6009A70F0 /* TestViewController.m in Sources */,
 				446D300B20E4858F0012225E /* main.m in Sources */,
 				446D2FFD20E4858E0012225E /* AppDelegate.m in Sources */,
+				446D303A20EC6CA70012225E /* MyContextTestView.m in Sources */,
+				446D303D20ECAF7F0012225E /* MyBezierView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
